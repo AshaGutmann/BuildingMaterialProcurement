@@ -1,0 +1,9 @@
+{
+  "network": "sepolia",
+  "contractName": "PrivateBuildingMaterialProcurement",
+  "address": "0xcC1805A797270d2cb2dF70E3b86469d8F3A315b9",
+  "deployer": "0x806868Ce994a805e2D15715dB011516300F3b3Ea",
+  "txHash": "0x5b15d382505c318c7b092b533a31e6286c1a27c8d7c62c1cfc568e0d70060292",
+  "timestamp": "2025-10-17T06:55:47.044Z",
+  "blockNumber": null
+}
