@@ -1,0 +1,126 @@
+MIT License
+
+Copyright (c) 2025 Secure Procurement Platform
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Licenses
+
+This project includes or depends on the following open-source packages:
+
+### Frontend Dependencies
+- **Vite** - MIT License
+- **TypeScript** - Apache License 2.0
+- **Tailwind CSS** - MIT License
+- **ethers.js** - MIT License
+- **wagmi** - MIT License
+- **RainbowKit** - MIT License
+- **Radix UI** - MIT License
+- **viem** - MIT License
+
+### Smart Contract Dependencies
+- **fhEVM (Zama)** - BSD-3-Clause License
+- **@fhevm/solidity** - BSD-3-Clause License
+- **@zama-fhe/oracle-solidity** - BSD-3-Clause License
+- **Hardhat** - MIT License
+- **OpenZeppelin Contracts** - MIT License (if used)
+
+### Development Dependencies
+- **Hardhat Toolbox** - MIT License
+- **TypeChain** - MIT License
+- **Mocha** - MIT License
+- **Chai** - MIT License
+- **Solidity Coverage** - MIT License
+- **Hardhat Gas Reporter** - MIT License
+
+All third-party packages retain their original licenses. Please refer to each
+package's LICENSE file or documentation for specific license terms.
+
+---
+
+## fhEVM Attribution
+
+This project uses Zama's fhEVM (Fully Homomorphic Encryption Virtual Machine)
+for privacy-preserving smart contract operations.
+
+**Zama fhEVM License:** BSD-3-Clause License
+
+For more information:
+- Website: https://www.zama.ai/
+- GitHub: https://github.com/zama-ai/fhevm
+- Documentation: https://docs.zama.ai/fhevm
+
+---
+
+## Usage Notice
+
+This software is provided as-is for educational and development purposes.
+Users are responsible for:
+
+1. Ensuring compliance with all applicable laws and regulations
+2. Conducting proper security audits before production use
+3. Understanding the risks of blockchain and smart contract technology
+4. Properly managing private keys and sensitive data
+
+The authors and contributors are not liable for:
+- Any financial losses
+- Security vulnerabilities in user implementations
+- Misuse of the software
+- Issues arising from third-party dependencies
+
+---
+
+## Contributing
+
+By contributing to this project, you agree that your contributions will be
+licensed under the MIT License.
+
+All contributions must:
+- Follow the project's code style and conventions
+- Include appropriate tests
+- Be free of any licensing conflicts
+- Not contain any proprietary or copyrighted material without permission
+
+---
+
+## Disclaimer
+
+This project is for demonstration and educational purposes. It has not been
+audited for production use. Deploy at your own risk.
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
+
+For production deployments:
+- Conduct thorough security audits
+- Review all smart contract code
+- Test extensively on testnets
+- Follow blockchain best practices
+- Consult legal counsel regarding regulatory compliance
+
+---
+
+## Contact
+
+For questions about licensing, please open an issue on the project repository.
+
+---
+
+Last Updated: 2025-10-18
