@@ -1,4 +1,4 @@
-import './style.css';
+import './style.enhanced.css';
 import { ethers } from 'ethers';
 import { CONTRACT_ADDRESS, CONTRACT_ABI, MATERIAL_TYPE_NAMES, STATUS_NAMES, MaterialType, ProcurementStatus } from './config/contract';
 import type { ProcurementInfo, TransactionRecord } from './types';
