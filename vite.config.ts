@@ -2,6 +2,9 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
+  // Base URL for GitHub Pages
+  base: '/BuildingMaterialProcurement/',
+
   // Build optimization
   build: {
     target: 'es2020',
@@ -23,8 +26,7 @@ export default defineConfig({
     // Code splitting configuration
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        enhanced: resolve(__dirname, 'index.enhanced.html')
+        main: resolve(__dirname, 'index.html')
       },
       output: {
         // Manual chunk splitting for better caching
