@@ -1,0 +1,41 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Validate commit message format
+# Format: <type>(<scope>): <subject>
+# Example: feat(contract): add new supplier authorization
+
+commit_msg_file=$1
+commit_msg=$(cat "$commit_msg_file")
+
+# Regex for conventional commits
+commit_regex='^(feat|fix|docs|style|refactor|perf|test|chore|ci|build|revert)(\(.+\))?: .{1,100}$'
+
+if ! echo "$commit_msg" | grep -Eq "$commit_regex"; then
+  echo "❌ Invalid commit message format!"
+  echo ""
+  echo "Commit message must follow conventional commits format:"
+  echo "  <type>(<scope>): <subject>"
+  echo ""
+  echo "Types:"
+  echo "  feat:     New feature"
+  echo "  fix:      Bug fix"
+  echo "  docs:     Documentation changes"
+  echo "  style:    Code style changes (formatting, etc.)"
+  echo "  refactor: Code refactoring"
+  echo "  perf:     Performance improvements"
+  echo "  test:     Test changes"
+  echo "  chore:    Maintenance tasks"
+  echo "  ci:       CI/CD changes"
+  echo "  build:    Build system changes"
+  echo "  revert:   Revert previous commit"
+  echo ""
+  echo "Examples:"
+  echo "  feat(contract): add supplier reputation system"
+  echo "  fix(frontend): resolve wallet connection issue"
+  echo "  docs(readme): update installation instructions"
+  echo ""
+  exit 1
+fi
+
+echo "✅ Commit message format valid"
