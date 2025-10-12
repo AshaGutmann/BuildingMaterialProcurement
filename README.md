@@ -2,16 +2,16 @@
 
 > **Privacy-Preserving Building Material Procurement with Fully Homomorphic Encryption**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-blue?style=for-the-badge)](https://AshaGutmann.github.io/FHEBuildingMaterialProcurement-main/)
-[![Test](https://github.com/AshaGutmann/FHEBuildingMaterialProcurement-main/actions/workflows/test.yml/badge.svg)](https://github.com/AshaGutmann/FHEBuildingMaterialProcurement-main/actions/workflows/test.yml)
-[![Deploy](https://github.com/AshaGutmann/FHEBuildingMaterialProcurement-main/actions/workflows/deploy.yml/badge.svg)](https://github.com/AshaGutmann/FHEBuildingMaterialProcurement-main/actions/workflows/deploy.yml)
-[![codecov](https://codecov.io/gh/AshaGutmann/FHEBuildingMaterialProcurement-main/branch/main/graph/badge.svg)](https://codecov.io/gh/AshaGutmann/FHEBuildingMaterialProcurement-main)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-blue?style=for-the-badge)](https://AshaGutmann.github.io/BuildingMaterialProcurement/)
+[![Test](https://github.com/AshaGutmann/BuildingMaterialProcurement/actions/workflows/test.yml/badge.svg)](https://github.com/AshaGutmann/BuildingMaterialProcurement/actions/workflows/test.yml)
+[![Deploy](https://github.com/AshaGutmann/BuildingMaterialProcurement/actions/workflows/deploy.yml/badge.svg)](https://github.com/AshaGutmann/BuildingMaterialProcurement/actions/workflows/deploy.yml)
+[![codecov](https://codecov.io/gh/AshaGutmann/BuildingMaterialProcurement/branch/main/graph/badge.svg)](https://codecov.io/gh/AshaGutmann/BuildingMaterialProcurement)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Powered by Zama](https://img.shields.io/badge/Powered_by-Zama_fhEVM-blue)](https://www.zama.ai/fhevm)
 
 A **confidential building material procurement platform** where suppliers submit encrypted bids that remain private until evaluation. Built with **Zama's fhEVM** (Fully Homomorphic Encryption), **Vite**, **TypeScript**, **Vanilla JS**, **wagmi**, **Tailwind CSS**, and deployed on **Sepolia testnet**.
 
-**📺 [Watch Demo Video](#) | 🎯 [Try Live Demo](https://AshaGutmann.github.io/FHEBuildingMaterialProcurement-main/) | 📖 [Read Full Documentation](#documentation)**
+**📺 [Watch Demo Video demo.mp4]() | 🎯 [Try Live Demo](https://AshaGutmann.github.io/BuildingMaterialProcurement/) | 📖 [Read Full Documentation](#https://github.com/AshaGutmann/BuildingMaterialProcurement)**
 
 ---
 
@@ -81,8 +81,8 @@ Get up and running in 3 minutes:
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/AshaGutmann/FHEBuildingMaterialProcurement-main.git
-cd FHEBuildingMaterialProcurement-main
+git clone https://github.com/AshaGutmann/BuildingMaterialProcurement.git
+cd BuildingMaterialProcurement
 npm install
 
 # 2. Configure environment
@@ -201,8 +201,8 @@ export const CONTRACT_ADDRESS = '0x...' // Use our deployed address
 
 ```bash
 # Clone the repository
-git clone https://github.com/AshaGutmann/FHEBuildingMaterialProcurement-main.git
-cd FHEBuildingMaterialProcurement-main
+git clone https://github.com/AshaGutmann/BuildingMaterialProcurement.git
+cd BuildingMaterialProcurement
 
 # Install dependencies (this may take 2-3 minutes)
 npm install
@@ -305,7 +305,7 @@ The build output will be in the `dist/` directory.
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/AshaGutmann/FHEBuildingMaterialProcurement-main.git
+git remote add origin https://github.com/AshaGutmann/BuildingMaterialProcurement.git
 git push -u origin main
 ```
 
@@ -323,7 +323,7 @@ The GitHub Actions workflow will automatically build and deploy your app.
 ## 📁 Project Structure
 
 ```
-FHEBuildingMaterialProcurement-main/
+BuildingMaterialProcurement/
 ├── contracts/                # Smart contracts
 │   └── SecureProcurement.sol
 ├── scripts/                  # Deployment scripts
@@ -377,7 +377,7 @@ FHEBuildingMaterialProcurement-main/
 ### Connect Your Wallet
 
 1. **Open the Application**
-   - Visit https://AshaGutmann.github.io/FHEBuildingMaterialProcurement-main/
+   - Visit https://AshaGutmann.github.io/BuildingMaterialProcurement/
    - Or run locally: `npm run dev`
 
 2. **Click "Connect Wallet"**
@@ -935,7 +935,7 @@ curl https://sepolia.infura.io/v3/YOUR-KEY -X POST -H "Content-Type: application
 ```
 
 **Get Help:**
-1. Check [GitHub Issues](https://github.com/AshaGutmann/FHEBuildingMaterialProcurement-main/issues)
+1. Check [GitHub Issues](https://github.com/AshaGutmann/BuildingMaterialProcurement/issues)
 2. Review [Zama fhEVM Docs](https://docs.zama.ai/fhevm)
 3. Join [Zama Discord](https://discord.com/invite/fhe-org)
 4. Open a new issue with:
@@ -1413,7 +1413,7 @@ This project includes a comprehensive CI/CD pipeline with GitHub Actions.
 **GitHub Pages Deployment** (`.github/workflows/deploy.yml`)
 - ✅ Automated frontend deployment
 - ✅ Builds and deploys on push to `main`
-- ✅ Available at `https://AshaGutmann.github.io/FHEBuildingMaterialProcurement-main/`
+- ✅ Available at `https://AshaGutmann.github.io/BuildingMaterialProcurement/`
 
 **Sepolia Deployment** (`.github/workflows/deploy-sepolia.yml`)
 - ✅ Manual workflow dispatch
