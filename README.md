@@ -11,7 +11,7 @@
 
 A **confidential building material procurement platform** where suppliers submit encrypted bids that remain private until evaluation. Built with **Zama's fhEVM** (Fully Homomorphic Encryption), **Vite**, **TypeScript**, **Vanilla JS**, **wagmi**, **Tailwind CSS**, and deployed on **Sepolia testnet**.
 
-**📺 [Watch Demo Video demo.mp4]() | 🎯 [Try Live Demo](https://AshaGutmann.github.io/BuildingMaterialProcurement/) | 📖 [Read Full Documentation](#https://github.com/AshaGutmann/BuildingMaterialProcurement)**
+**📺 [Watch Demo Video demo.mp4]() | 🎯 [Try Live Demo](https://ashaGutmann.github.io/BuildingMaterialProcurement/) | 📖 [Read Full Documentation](#https://github.com/AshaGutmann/BuildingMaterialProcurement)**
 
 ---
 
@@ -377,7 +377,7 @@ BuildingMaterialProcurement/
 ### Connect Your Wallet
 
 1. **Open the Application**
-   - Visit https://AshaGutmann.github.io/BuildingMaterialProcurement/
+   - Visit https://ashaGutmann.github.io/BuildingMaterialProcurement/
    - Or run locally: `npm run dev`
 
 2. **Click "Connect Wallet"**
@@ -1187,8 +1187,7 @@ This project is built on **Zama's fhEVM** (Fully Homomorphic Encryption Virtual 
 - [Getting Started Guide](https://docs.zama.ai/fhevm/getting-started)
 - [Solidity API Reference](https://docs.zama.ai/fhevm/solidity-api)
 - [Example DApps](https://github.com/zama-ai/fhevm-solidity-examples)
-- [Video Tutorials](https://www.youtube.com/@zama_fhe)
-
+- [Video Tutorials demo.mp4]
 **⚡ Try Zama's fhEVM in your next project!**
 
 ---
@@ -1413,7 +1412,7 @@ This project includes a comprehensive CI/CD pipeline with GitHub Actions.
 **GitHub Pages Deployment** (`.github/workflows/deploy.yml`)
 - ✅ Automated frontend deployment
 - ✅ Builds and deploys on push to `main`
-- ✅ Available at `https://AshaGutmann.github.io/BuildingMaterialProcurement/`
+- ✅ Available at `https://ashagutmann.github.io/BuildingMaterialProcurement/`
 
 **Sepolia Deployment** (`.github/workflows/deploy-sepolia.yml`)
 - ✅ Manual workflow dispatch
