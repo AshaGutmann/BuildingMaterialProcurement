@@ -1186,7 +1186,7 @@ This project is built on **Zama's fhEVM** (Fully Homomorphic Encryption Virtual 
 - [fhEVM Whitepaper](https://github.com/zama-ai/fhevm/blob/main/fhevm-whitepaper.pdf)
 - [Getting Started Guide](https://docs.zama.ai/fhevm/getting-started)
 - [Solidity API Reference](https://docs.zama.ai/fhevm/solidity-api)
-- [Example DApps](https://github.com/zama-ai/fhevm-solidity-examples)
+- [Example DApps](https://github.com/zama-ai/fhevm-react-template)
 - [Video Tutorials demo.mp4]
 **⚡ Try Zama's fhEVM in your next project!**
 
