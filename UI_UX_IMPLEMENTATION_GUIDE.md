@@ -484,14 +484,14 @@ Edit `src/style.enhanced.css` lines 33-35:
 
 These winning projects use the exact same UI/UX patterns:
 
-1. **case126** - hello-fhevm-lottery
+1. **FHE Lottery Platform** - hello-fhevm-lottery
    - Live: https://hello-fhevm-lottery.vercel.app/
    - Features: Glassmorphism + RainbowKit
 
-2. **case100** - SecretGallery
+2. **Confidential Gallery** - SecretGallery
    - Features: Perfect dark theme + gradients
 
-3. **case141** - PrivyGive
+3. **Privacy-Preserving Donations** - PrivyGive
    - Features: Next.js + Tailwind + glassmorphism
 
 ---
