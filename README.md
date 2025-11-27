@@ -2,7 +2,7 @@
 
 > **Privacy-Preserving Building Material Procurement with Fully Homomorphic Encryption**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-blue?style=for-the-badge)](https://AshaGutmann.github.io/BuildingMaterialProcurement/)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Now-blue?style=for-the-badge)](https://private-building-material-procureme.vercel.app/)
 [![Test](https://github.com/AshaGutmann/BuildingMaterialProcurement/actions/workflows/test.yml/badge.svg)](https://github.com/AshaGutmann/BuildingMaterialProcurement/actions/workflows/test.yml)
 [![Deploy](https://github.com/AshaGutmann/BuildingMaterialProcurement/actions/workflows/deploy.yml/badge.svg)](https://github.com/AshaGutmann/BuildingMaterialProcurement/actions/workflows/deploy.yml)
 [![codecov](https://codecov.io/gh/AshaGutmann/BuildingMaterialProcurement/branch/main/graph/badge.svg)](https://codecov.io/gh/AshaGutmann/BuildingMaterialProcurement)
@@ -11,7 +11,7 @@
 
 A **confidential building material procurement platform** where suppliers submit encrypted bids that remain private until evaluation. Built with **Zama's fhEVM** (Fully Homomorphic Encryption), **Vite**, **TypeScript**, **Vanilla JS**, **wagmi**, **Tailwind CSS**, and deployed on **Sepolia testnet**.
 
-**📺 [Watch Demo Video demo.mp4](https://streamable.com/ndfccy) | 🎯 [Try Live Demo](https://ashaGutmann.github.io/BuildingMaterialProcurement/) | 📖 [Read Full Documentation](https://github.com/AshaGutmann/BuildingMaterialProcurement)**
+**📺 [Watch Demo Video demo.mp4](https://streamable.com/ndfccy) | 🎯 [Try Live Demo](https://private-building-material-procureme.vercel.app/) | 📖 [Read Full Documentation](https://github.com/AshaGutmann/BuildingMaterialProcurement)**
 
 ---
 
